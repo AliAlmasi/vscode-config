@@ -1,0 +1,82 @@
+{
+	"editor.suggestSelection": "first",
+	"python.languageServer": "Pylance",
+	"git.ignoreMissingGitWarning": true,
+	"explorer.confirmDelete": false,
+	"powershell.powerShellDefaultVersion": "Windows PowerShell (x64)",
+	"window.autoDetectColorScheme": true,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"workbench.settings.openDefaultKeybindings": true,
+	"editor.renderControlCharacters": false,
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 2000,
+	"window.autoDetectHighContrast": false,
+	"terminal.explorerKind": "external",
+	"terminal.integrated.allowChords": false,
+	"terminal.integrated.cursorStyle": "underline",
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.copyOnSelection": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.editor.untitled.hint": "hidden",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.minimap.maxColumn": 80,
+	"explorer.confirmDragAndDrop": false,
+	"git.enableSmartCommit": true,
+	"security.workspace.trust.enabled": false,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.find.cursorMoveOnType": false,
+	"editor.cursorBlinking": "phase",
+	"telemetry.telemetryLevel": "all",
+	"editor.linkedEditing": true,
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.fontFamily": "Jetbrains Mono",
+	"editor.fontSize": 12,
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.guides.bracketPairs": true,
+	"editor.mouseWheelZoom": true,
+	"terminal.integrated.fontSize": 12,
+	"terminal.integrated.fontFamily": "Jetbrains Mono",
+	"emmet.showSuggestionsAsSnippets": true,
+	"eslint.format.enable": true,
+	"window.commandCenter": true,
+	"editor.smoothScrolling": true,
+	"terminal.integrated.smoothScrolling": true,
+	"editor.fontLigatures": true,
+	"workbench.startupEditor": "none",
+	"git.confirmSync": false,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"markdownlint.config": {
+		"no-inline-html": false
+	},
+	"php.validate.enable": true,
+	"php.validate.run": "onType",
+	"html.format.templating": true,
+	"[php]": {
+		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+	},
+	"html.format.indentInnerHtml": true,
+	"prettier.useTabs": true,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": true,
+	"editor.minimap.enabled": false,
+	"editor.formatOnSaveMode": "modificationsIfAvailable",
+	"css.format.spaceAroundSelectorSeparator": true,
+	"workbench.layoutControl.enabled": false,
+	"[cpp]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools"
+	},
+	"editor.unicodeHighlight.invisibleCharacters": false,
+	"fiveServer.injectBody": true,
+	"git.autofetch": true,
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"workbench.colorTheme": "One Dark Pro Mix",
+	"workbench.editor.empty.hint": "hidden"
+	"extensions.autoUpdate": "onlyEnabledExtensions"
+}

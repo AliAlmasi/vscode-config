@@ -1,0 +1,18 @@
+{
+	"Use Strict": {
+		"prefix": "use",
+		"body": [
+			"'use strict';",
+			"",
+			"$0"
+		],
+		"description": "Use Strict mode"
+	},
+	"DOM Selector": {
+		"prefix": "qusel",
+		"body": [
+			"document.querySelector($1);",
+			"$0"
+		]
+	}
+}

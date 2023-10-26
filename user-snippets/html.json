@@ -1,0 +1,7 @@
+{
+  "CSS defer-load": {
+    "prefix": "css",
+    "body": "<link rel='stylesheet' media='print' onload='this.media=\"all\"' href='$1'>\n$0",
+    "description": "One line code to make CSS load after the page fully loads (something like 'defer' in JS)."
+  }
+}

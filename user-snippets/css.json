@@ -1,0 +1,67 @@
+{
+	"CSS reset": {
+		"prefix": "reset",
+		"body": [
+			"*,",
+			"*::before,",
+			"*::after {",
+			"\tmargin: 0;",
+			"\tpadding: 0;",
+			"\tbox-sizing: border-box;",
+			"}",
+			"",
+			"html {",
+			"\tfont-size: 62.5%;",
+			"}"
+		],
+		"description": "Resets the browser's user-agent stylesheet"
+	},
+	"Selection": {
+		"prefix": "selection",
+		"body": ["*::selection {", "\tcolor: $1;", "\tbackground-color: $2;", "}"],
+		"description": "Customize user-selection."
+	},
+	"Root": {
+		"prefix": "root",
+		"body": [":root {", "\t$1", "}"],
+		"description": "Define CSS variables."
+	},
+	"Media query": {
+		"prefix": "media",
+		"body": ["@media (max-width: $1em) {", "\t$2", "}"],
+		"description": "Media query with `max-width` condition."
+	},
+	"Links": {
+		"prefix": "a",
+		"body": [
+			"a:link, a:visited {",
+			"\t$1",
+			"}",
+			"",
+			"a:hover {",
+			"\t$2",
+			"}",
+			"",
+			"a:active {",
+			"\t$3",
+			"}"
+		],
+		"description": "Style links in a better way."
+	},
+	"Seperator": {
+		"prefix": "line",
+		"body": "/* ----- $1 ----- */",
+		"description": "Seperator line to help you read the code better."
+	},
+	"Font face":{
+		"prefix": "@font",
+		"body":[
+			"@font-face {",
+			"\tfont-family: \"$1\";",
+			"\tsrc: url(\"$2\") format(\"$3\");",
+			"\tfont-weight: $4;",
+			"}"
+		],
+		"description":"Defines custom fontface using a file (woff2 recommended)."
+	}
+}

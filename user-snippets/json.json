@@ -1,0 +1,8 @@
+{
+  "Tailwind processing npm command": {
+    "prefix": "tailwind",
+    "body": [
+      "\"dev\": \"npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch\""
+    ]
+  }
+}
